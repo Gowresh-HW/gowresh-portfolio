@@ -1,12 +1,21 @@
  export const skillsData = [
+    'ROS',
+    'ROS2',
+    'Autoware',
+    'Ubuntu',
+    'Linux',
+    'Python',
+    'C++',
+    'React',
     'HTML',
     'Javascript',
     'CSS',
-    'React',
-    'Django',
-    'MongoDB',
     'MySQL',
-    'Python'
+    'Docker',
+    
+    'Numpy',
+    'OpenCV',
+    'Tensorflow',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Hello! My name is Gowresh Rajagopal and I am a Roboticist with a passion (more like an obsession!) for Robotics.",
+    description2: "I am currently working as a Full-Stack ROS Developer/Robotics Engineer at Maxbyte Technologies, UAE. I started my career as a Junior Robotics Engineer at Maxbyte Technologies, India. Over the past 5 years I have evolved as a full-stack ROS Developer across multiple mobile robot platforms, specifically focusing on development and deployment of Autonomous Industrial Mobility Vehicles to shopfloor environments. I am also currently pursuing my Masters in Robotics at Heriot-Watt University, Dubai, where I got the opportunity to work on self-driving vehicle as part of my thesis. Other than this I consider myself a bookworm, who not just loves reading books but also likes to buy and maintain a personal library. And if it is not not obvious yet, I am an ardent Potterhead!",
     image: 2
 }

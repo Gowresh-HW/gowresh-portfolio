@@ -6,53 +6,52 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
-
+import bots from '../assets/pic/bots.png'
+import bopt from '../assets/pic/bopt.png'
+import clean from '../assets/pic/cleaning.jpg'
+import trolley from '../assets/pic/trolley.jpg'
+import sr from '../assets/pic/sr.png'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'Autonomous Industrial Mobility Platform',
+        projectDesc: 'This product portfolio of mobile robots for various usecases such as Healthcare, Material Movement, Industrial Floor Cleaning was achieved using a common firmware platform designed on top of Robot Operating System. The various functionalities were then customized and deployed for users. I was resposnisble for designing the entire mechatronics system for the portfolio, developing the kinematics motion control for each platform and customizing path planning and navigation.',
+        tags: ['ROS', 'Python' ,'C++', 'ReactJS', 'CAN'],
+        demo: 'https://www.youtube.com/watch?v=UMLDxl3ix60',
+        image: bots
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Autonomous Pallet Truck',
+        projectDesc: 'This is a Battery Operated Pallet Truck retrofitted with Lidars, camera, IMU unit and Industrial PC. The main requirement of this autonomous vehicle was to pick/place metal pallets to and from different points in a construction equipment manufacturing plant. I was responsible for developing the kinematics of the vehicle based on tricycle kinematics, waypoint path planning algorithm, pallet detection algorithm using April tags, job queuing and mission management, web based User Interface, obstacle detection using multiple lidars and emergency braking using OpenCAN',
+        tags: ['ROS', 'C++','Python', 'ReactJS', 'CAN'],
+        demo: 'https://www.youtube.com/watch?v=AufhAV6wjnU',
+        image: bopt
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'Autonomous Cleaning Vehicle',
+        projectDesc: 'This is an industrial cleaning vehicle retrofitted with Lidars, camera, IMU unit and Industrial PC. The main requirement of this autonomous vehicle was to execute automatic cleaning operations on predefined zones within a map. I was responsible for developing the kinematics of the vehicle based on differential kinematics, polygon based coverage path planning, obstacle deetection and avoidance using lidar and depth camera, self-configurable User Interface for mapping, cleaning zone definition, go/no-go zones definition. The entire UI stack was deployed as a docker container',
+        tags: ['ROS', 'C++','Python', 'ReactJS', 'Docker'],
+        demo: 'https://www.youtube.com/watch?v=4aBZ0w4EFfs',
+        image: clean
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Autonomous Trolley',
+        projectDesc: 'This is an Autonomous Mobile Robot developed from scratch to cater to requirments of smaller payloads in shopfloor environments. The system consists of a lidar, depth camera, proximity sensors, IMU and HMI. I was resposnsible for the development of kinematics of the vehicle based on differential kinematics, path planning and navigation, job queue management and modbus based HMI interface',
+        tags: ['ROS', 'C++','Python', 'ReactJS', 'Docker', 'Modbus'],
+        demo: 'https://www.youtube.com/watch?v=pkUJD6Lz4aw',
+        image: trolley
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Search and Rescue - ROSBot 2.0',
+        projectDesc: 'This group project was done as part of my coursework for Msc Robotics. The assignment was to design, develop and demonstrate a search and rescue operation using ROSBot 2.0. I was responsible for development of object detection algorithm to detect various symbols in the environment, plot the positions of the detected symbols in a 2D Occupancy Grid using marker arrays. The project involved both simulation implementation and real robot integration',
+        tags: ['ROS', 'Python', '2DSlam', 'OpenCV'],
+        code: 'https://github.com/Gowresh-HW/group1_project',
+        demo: 'https://www.youtube.com/watch?v=k_JjMSetfLk',
+        image: sr
     },
     
 ]
